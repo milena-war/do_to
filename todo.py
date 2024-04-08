@@ -30,11 +30,9 @@ with sqlite3.connect('todo.db') as connection:
     Choose operation
     0 - Add new task
     1 - Set task as done
-    2 - Exit
     ''')
 
     value = input('Which action do you want to perform? ')
-
 
     if value == '0':
         title = input('Add task to do: ')
